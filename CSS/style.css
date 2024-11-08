@@ -1,0 +1,394 @@
+nav h3 {
+    background-color: black;
+    color: bisque;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav h3 span {
+    background-color: bisque;
+    color: rgb(122, 14, 14);
+    font-weight: 900;
+    border-radius: 5px;
+    /* padding: 5px; */
+}
+
+.logo {
+    max-width: 20vh;
+    height: auto;
+}
+
+.nav-section {
+    padding: 20px;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.card {
+    height: 180px;
+    width: 180px;
+    animation: card 5s infinite;
+}
+
+@keyframes card {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+h3 {
+    color: black;
+    /* background-color: gray; */
+    font-size: larger:
+}
+
+.courses-section .col-md-3 .card h3 p {
+    margin-top: 40px;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactlink {
+    text-decoration: none;
+    color: white;
+}
+
+
+@keyframes header {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.div1 {
+    text-align: center;
+    /* background-color: bisque; */
+    padding: 25px 0px 25px 0px;
+
+}
+
+.div1text span {
+    border-radius: 5px;
+    border: 2px solid rgb(216, 105, 122);
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+.div1text {
+    animation: div1text 4s infinite;
+    color: rgb(165, 214, 28);
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+@keyframes div1text {
+    0% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(22, 22, 22);
+
+
+    }
+
+    10% {
+        top: 20px;
+        bottom: 0px;
+        color: rgb(255, 0, 149);
+
+    }
+
+    20% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(90, 202, 15);
+    }
+
+    30% {
+        top: 20px;
+        bottom: 0px;
+        color: rgb(15, 83, 83);
+    }
+
+    40% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(143, 198, 13);
+    }
+
+    50% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(42, 14, 196);
+    }
+
+    60% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(228, 63, 8);
+    }
+
+    70% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(6, 155, 152);
+    }
+
+    80% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(152, 134, 172);
+    }
+
+    90% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(198, 136, 13);
+    }
+
+    100% {
+        top: 0px;
+        bottom: 30px;
+        color: rgb(202, 202, 13);
+    }
+
+}
+
+/*  */
+
+/* 0% {
+       right: 0px;
+       left: 150px;
+     }
+
+     25% {
+       right: 150px;
+       left: 0px;
+     }
+
+     50% {
+       right: 0px;
+       left: 150px;
+     }
+
+     75% {
+       right: 150px;
+       left: 0px;
+     }
+
+     100% {
+       right: 0px;
+       left: 150px;
+     } */
+
+}
+
+
+
+
+div .card {
+    text-align: center;
+}
+
+#boss {
+    padding: 20px;
+    animation-name: footer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes footer {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.gridbox2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.boxes3 {
+    text-align: center;
+    display: grid;
+
+}
+
+.list2 {
+    text-align: center;
+    list-style-type: none;
+}
+
+.contactlink {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.footer {
+    animation: colorChange 6s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+
+    33% {
+        background-color: blue;
+    }
+
+    66% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+
+#boss {
+    animation: colorChange 6s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+
+    33% {
+        background-color: blue;
+    }
+
+    66% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+footer.bg-dark {
+    animation: backgroundShift 6s infinite linear;
+}
+
+@keyframes backgroundShift {
+    0% {
+        background-color: red;
+    }
+
+    33% {
+        background-color: blue;
+    }
+
+    66% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.personal {
+    text-align: center;
+    padding: 20px;
+}
+
+.zoom-box {
+    display: inline-block;
+    padding: 10px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    transition: transform 3s;
+}
+
+.zoom-box:hover {
+    transform: scale(1.8);
+}
+
+/* Footer styling */
+/* footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+} */
+
+/* Color changing animation */
+/* @keyframes colorChange {
+
+    0%,
+    100% {
+        color: #333;
+    }
+
+    50% {
+        color: #0066cc;
+    } */
